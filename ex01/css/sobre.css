@@ -1,0 +1,34 @@
+#principal {	
+	color: #0AB300;
+	font-family:Verdana;	
+}
+
+h1{
+	color:white;
+	background-image: url("../img/sobre-background.png");
+}
+
+h2{
+	border: 7px solid #B330B3;
+}
+
+figure{
+	background: #E1E1E8;
+	text-align:center;
+}
+figure img{
+
+	border: 2px solid #B330B3;
+	
+}
+figcaption{
+
+	font-style: italic;
+}
+#foto{
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+
+
+}
