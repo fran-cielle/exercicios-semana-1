@@ -1,0 +1,5 @@
+array é um conjunto de valores
+
+arr = []
+arr.length // tamanho de array quantas posições ele tem
+arr.push //atribui valores a array

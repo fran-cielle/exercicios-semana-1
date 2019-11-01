@@ -1,0 +1,132 @@
+14/10
+
+Como funciona a internet?
+endereço ip(tag)
+
+Servidores
+
+O que é node?
+um JavaScript no backend que responde as requisiçoes solicitadas. Um único backend pode atender a 
+vários sites ao mesmo tempo. Servidor node - indica que irei trabalhar com JavaScript no backend
+
+o node só entrega para o usuário o que é necessário
+rotas e integrações 
+o node é uma plataforma(NÃO É LINGUAGEM)
+
+
+--------------
+O que é NPM?
+Responsável por gerenciar todos os pacotes de bibliotecas que existem e estão disponóveis para 
+inserir no seu projeto
+Yarn - outro tipo de gerenciador de bibliotecas
+
+--------------------
+Frameworks
+
+São instaláveis, que entrega algo "pre pronto" e só é necessário ajustar para  a sua necessidade
+
+
+ExpressJS como base - Framework mais utilizado com JavaScript, ocupa 99,6% de todas as aplicações 
+que existem no JS
+    - Sem opinião
+    - Otimo para iniciar
+    -Microserviços
+
+-AdonisJS -NestJS (outros Frameworks existentes)
+
+# API Rest #
+
+Fluxo da requisição e resposta:
+requisição feita por um cliente
+resposta retornada atraves de uma estrutura de dados
+cliente recebe resposta e processa resultado
+
+As rotas utilizam os métodos(http):
+GET - requisições de informações seja qual for - para uma consulta
+POST - envia informações (geralmente para formulários)
+PUT - alteração e atualização de dados
+DELETE - deleta
+
+*Postman*
+
+BENEFÍCIOS 
+Multiplos clientes(frontend), mesmo backend
+Protocolo de comunicação 
+
+JSON(JavaScript Object Notation)
+é uma notação - tem estrutura de um objeto mas é tratado como uma string
+
+*XML - estrutura parecida com html*
+
+QUERY PARAMS
+...?page=2 -> o que tem pra frente da interrogação é query string - requisição que pega chave e valores
+query -> modelo de consulta
+
+statuscodesresponse
+
+------------------------
+HTTP CODES
+1xx - informational
+2xx - success | 200-> success / 201-> created
+3xx - redirection | 301-> moved permanently / 302-> moved
+4xx - client error | 400-> bad request / 401-> unauthorized / 404-> not found
+5xx - server error | 500-> internal server error
+
+
+/*****************************--------------------*************************************/
+15-10
+
+O NPM precisa se tornar como o instalador de bibliotecas, é o gerenciador de pacotes npm
+
+etapas: npm init -> inicializa um projeto utilizando o NPM
+
+#Instalar o Express#
+
+
+Portas, aberturas de arquisições
+dois serviços não escutam a mesma porta
+
+****gitignore
+
+requisição-> toda chamada que eu faço para uma rota
+
+/*****************************--------------------*************************************/
+16-10
+
+intalando o nodemon: ele atualiza o servidor autormaticamente
+npm install nodemon -D 
+(D-> para ficar no modo desenvolvedor)
+-G para ficar no modo global
+
+POSTAMAN - 
+
+**single page application**
+**reality js**
+
+
+/*****************************--------------------*************************************/
+17-10
+ENDPOINT -> É a mesma coisa que rota
+***Desconstrução de objetos JS - muito comum de ser utilizado quando estamos trabalhando com rotas, ele pega um objeto e quebra ele atribuindo propriedade a cada 
+
+***conceito de middler
+
+
+https://www.devmedia.com.br/json-tutorial/25275
+https://www.devmedia.com.br/o-que-e-json/23166
+
+
+/*****************************--------------------*************************************/
+Arquitetura MVC
+
+É a arquitetura mais utilizada em desenvolvimento NODE para estruturar o projeto
+
+Model - Abstrações da base de daods (tabelas)
+Controller - responsável por fazer qualquer tipo de regra de negócio
+Views - resposta enviada pelo controller
+
+
+um controller nunca chama outro controller isso fere a arquiterura estabelecida, ele trata apenas as requisições que atende o desejado (por exemplo, usuário chama usuário e livro chama livro NUNCA usuario chama livro)
+Um controller deve possuir apenas 5 metodos
+
+criar  um arquivo server - e colocar 

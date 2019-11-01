@@ -1,0 +1,70 @@
+﻿metodos callback 
+
+
+MAP
+ao invés de pegarem um valor, o parametro que elas solicitam dentro de uma função é uma outra função
+o map devolve uma array, o for não
+
+FOR EACH
+para cada(literalmente)
+
+FILTER
+retorna uma array com os valores filtrados, compara as arrays e 
+
+SORT
+ordenar
+
+
+**pesquisar ->  função flecha
+**pesquisar ->  templete string
+**pesquisar ->  filter includ
+
+
+
+10-09
+
+OBJETOS
+
+Algo que imitamos a vida real no código(exemplo: produto)
+
+# como chamar um objeto#
+se eu souber corretamente a palavra/caminho - funciona como se fosse dar um caminho de diretório e não pode pular nenhuma fase: console.log(pessoa.cor.quente)
+para um dado variado: console.log(obj.pais.[paisEscolhido].frase) - dado variado é uma variavél(para acessar uma variável)
+
+console.log(pessoa.idade)
+
+*A chave de um objeto é sempre uma string
+
+
+FOR OF
+funciona para interar arrays
+
+for (let gato(elemento) of gatos(onde esta saindo)) {
+	console.log(gato.nome)
+}
+
+
+FOR IN
+Intera objetos
+
+
+11-09
+
+Metodos para objetos
+
+object.entries -> entradas | cria uma array cria cada conjunto de valor 
+
+transforma tudo que tem em um objeto em uma array cada conjunto com indice zero e valor 1
+
+object.value -> array com todos os valores
+
+object.values -> pega os valores de um objeto
+
+
+FUNÇÕES CONSTRUTORA OBJETOS
+
+function GATO|nome do objeto|(nome,sexo,cor |parametros do obj|){
+this.nome = nome; |parametro valor|
+}
+
+const churrumina|para criar um novo objeto | = |atribui uma nova instancia(criar)| new Gato("Churrumina", "fêmea", "creme")
